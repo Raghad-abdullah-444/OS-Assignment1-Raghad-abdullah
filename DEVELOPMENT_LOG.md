@@ -45,16 +45,17 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
+### Entry 2 - [[March 25, 2026, 8:00 AM]
+**What I did**: I try to add the feature started with first features
 
-**Details**: 
 
-**Challenges**: 
+**Details**: add all feature 1 requirments
 
-**Solution**: 
+**Challenges**: take to understand what should I do
 
-**Time spent**: 
+**Solution**: I searh on some resources , searching on slides
+
+**Time spent**: 4 hours
 
 ---
 
