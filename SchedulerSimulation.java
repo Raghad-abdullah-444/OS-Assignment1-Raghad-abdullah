@@ -165,6 +165,12 @@ public long getCreationTime() {
      public long getLastReadyTime() {
         return lastReadyTime;
     }
+    // add method 
+     public void updateWaitingTime() {
+        long currentTime = System.currentTimeMillis();
+        long waitTime = currentTime - lastReadyTime; // Time spent waiting since last added to queue
+        totalWaitingTime += waitTime;
+    }
 
     // Check if the process has finished (i.e., no remaining time)
     public boolean isFinished() {
