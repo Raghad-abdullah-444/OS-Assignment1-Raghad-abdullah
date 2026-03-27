@@ -32,16 +32,16 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [March 24, 2026, 9:30 AM]
+**What I did**: Download VS code and create account on Github, and update or add my ID inside the code
 
-**Details**: 
+**Details**: created account on github use download the current code and linking github with VS code
 
-**Challenges**: 
+**Challenges**: I got some trouble when I try to open file and put the url inside vs code
 
-**Solution**: 
+**Solution**: I used some internet resources to learn how to linked
 
-**Time spent**: 
+**Time spent**: 2 hours
 
 ---
 
