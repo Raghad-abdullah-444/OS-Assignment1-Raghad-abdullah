@@ -155,6 +155,10 @@ private int priority;
     public int getpriority(){
     return priority;
     }
+    //4c add get to all varibles
+public long getCreationTime() {
+        return creationTime;
+    }
 
     // Check if the process has finished (i.e., no remaining time)
     public boolean isFinished() {
