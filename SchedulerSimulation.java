@@ -162,6 +162,9 @@ public long getCreationTime() {
      public long getTotalWaitingTime() {
         return totalWaitingTime;
     }
+     public long getLastReadyTime() {
+        return lastReadyTime;
+    }
 
     // Check if the process has finished (i.e., no remaining time)
     public boolean isFinished() {
