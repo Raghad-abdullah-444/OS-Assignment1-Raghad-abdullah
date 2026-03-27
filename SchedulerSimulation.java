@@ -421,8 +421,19 @@ public static void displayWaitingTimeSummary() {
             totalWaitingTime += process.getTotalWaitingTime();
         }
         System.out.println(Colors.BOLD + Colors.BRIGHT_CYAN +"╠════════════════════════════════════════════════════════════════════════════════╣" + Colors.RESET);
-
-
+            double avgWaitingTime = (double) totalWaitingTime / completedProcesses.size();
+        
+        System.out.println(Colors.BOLD + Colors.BRIGHT_CYAN + "║" + Colors.RESET + 
+                          "  " + Colors.BOLD + Colors.BRIGHT_YELLOW + 
+                          String.format("%-42s", "Average Waiting Time:") + 
+                          String.format("%-20s", String.format("%.2fms", avgWaitingTime)) + 
+                          Colors.RESET + "          " +
+                          Colors.BOLD + Colors.BRIGHT_CYAN + "║" + Colors.RESET);
+        
+        System.out.println(Colors.BOLD + Colors.BRIGHT_CYAN + 
+                          "╚════════════════════════════════════════════════════════════════════════════════╝" + 
+                          Colors.RESET + "\n");
+    }
 
 
 }
