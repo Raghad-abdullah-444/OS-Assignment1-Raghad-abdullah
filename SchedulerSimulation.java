@@ -316,6 +316,10 @@ public class SchedulerSimulation {
                      completedProcesses.add(process);
                 }
             }
+            else {
+                // FEATURE 3: Process finished, add to completed list for summary
+                completedProcesses.add(process);
+            }
         }
         
         // End of the scheduler simulation
