@@ -31,11 +31,12 @@ class Process implements Runnable {
     private int remainingTime; // Time left for the process to finish its execution
 private int priority;
     // Constructor to initialize the process with name, burst time, and time quantum
-    public Process(String name, int burstTime, int timeQuantum) {
+    public Process(String name, int burstTime, int timeQuantum,int priority) {
         this.name = name;
         this.burstTime = burstTime;
         this.timeQuantum = timeQuantum;
         this.remainingTime = burstTime; // Initially, remaining time is equal to the burst time
+        this.priority = priority;
     }
 
     // This method will be called when the thread for this process is started
@@ -135,6 +136,9 @@ private int priority;
 
     public int getRemainingTime() {
         return remainingTime;
+    }
+    public int getpriority(){
+    return priority;
     }
 
     // Check if the process has finished (i.e., no remaining time)
