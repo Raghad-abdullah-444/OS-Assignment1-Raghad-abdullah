@@ -85,7 +85,7 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 5 - - [March 28, 2026, 3:30 PM]
+### Entry 5 - [March 28, 2026, 3:30 PM]
 **What I did**: solve other features 
 
 **Details**: I complete the last features
@@ -98,25 +98,14 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
 
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
-
----
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [4 days]
 
-**Most challenging part**: 
+**Most challenging part**: hard to understand , take long time
 
-**Most interesting learning**: 
+**Most interesting learning**: how process working inside cpu
 
-**What I would do differently next time**: 
+**What I would do differently next time**: start to solve early
