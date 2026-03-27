@@ -33,7 +33,7 @@ Document your development process as you work on the assignment. Add entries sho
 ## Your Development Log:
 
 ### Entry 1 - [March 24, 2026, 9:30 AM]
-**What I did**: Download VS code and create account on Github, and update or add my ID inside the code
+**What I did**: Download VS code and create account on Github, and update or add my ID inside the code(444052811)
 
 **Details**: created account on github use download the current code and linking github with VS code
 
