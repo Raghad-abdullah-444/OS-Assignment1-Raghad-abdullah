@@ -31,6 +31,12 @@ class Process implements Runnable {
     private int remainingTime; // Time left for the process to finish its execution
     //*1a add pirority varible
 private int priority;
+//1c add varibles for waiting time
+ private long creationTime; 
+    private long totalWaitingTime; 
+    private long lastReadyTime;
+
+
     // Constructor to initialize the process with name, burst time, and time quantum
     //*2a add priorty constructor
     public Process(String name, int burstTime, int timeQuantum,int priority) {
