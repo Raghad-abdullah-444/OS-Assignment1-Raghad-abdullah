@@ -43,9 +43,15 @@ private int priority;
         this.name = name;
         this.burstTime = burstTime;
         this.timeQuantum = timeQuantum;
-        this.remainingTime = burstTime; // Initially, remaining time is equal to the burst time
+        this.remainingTime = burstTime; 
         this.priority = priority;
+        //3c add constructor to new varibles
+         this.creationTime = System.currentTimeMillis(); 
+        this.totalWaitingTime = 0; 
+        this.lastReadyTime = this.creationTime; 
+
     }
+
 
     // This method will be called when the thread for this process is started
     @Override
