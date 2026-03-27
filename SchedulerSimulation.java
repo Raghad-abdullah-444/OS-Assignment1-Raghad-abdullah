@@ -420,6 +420,7 @@ public static void displayWaitingTimeSummary() {
             
             totalWaitingTime += process.getTotalWaitingTime();
         }
+        System.out.println(Colors.BOLD + Colors.BRIGHT_CYAN +"╠════════════════════════════════════════════════════════════════════════════════╣" + Colors.RESET);
 
 
 
