@@ -171,6 +171,10 @@ public long getCreationTime() {
         long waitTime = currentTime - lastReadyTime; // Time spent waiting since last added to queue
         totalWaitingTime += waitTime;
     }
+    // add set
+    public void setLastReadyTime(long time) {
+        this.lastReadyTime = time;
+    }
 
     // Check if the process has finished (i.e., no remaining time)
     public boolean isFinished() {
