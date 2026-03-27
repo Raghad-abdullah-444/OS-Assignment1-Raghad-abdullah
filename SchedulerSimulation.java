@@ -159,6 +159,9 @@ private int priority;
 public long getCreationTime() {
         return creationTime;
     }
+     public long getTotalWaitingTime() {
+        return totalWaitingTime;
+    }
 
     // Check if the process has finished (i.e., no remaining time)
     public boolean isFinished() {
