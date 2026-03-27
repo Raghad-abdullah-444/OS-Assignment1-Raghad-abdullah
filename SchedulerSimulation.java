@@ -1,5 +1,7 @@
+import java.util.ArrayList;
 import java.util.HashMap; // test //ii
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import java.util.Random;
@@ -185,6 +187,8 @@ public long getCreationTime() {
 public class SchedulerSimulation {
     //1b add varible contextswitcount
     private static int contextswitchcount=0;
+    // array for process
+    private static List<Process> completedProcesses = new ArrayList<>();
     public static void main(String[] args) {
         // ⚠️ IMPORTANT: Put your student ID here to seed the random number generator
         // This makes your output unique to you - DO NOT forget to change this!
@@ -263,13 +267,15 @@ public class SchedulerSimulation {
             // Get the next thread from the queue (FIFO)
             Thread currentThread = processQueue.poll(); // Dequeues the next thread
              contextswitchcount++; // 2b increment contextswitchcount
-             
+             // get current therad to update 
+              Process process1 = processMap.get(currentThread);
+             process1.updateWaitingTime(); 
             // Print the current process queue (list of process IDs in the queue)
             System.out.println(Colors.BOLD + Colors.MAGENTA + "┌─ Ready Queue " + "─".repeat(65) + Colors.RESET);
             System.out.print(Colors.MAGENTA + "│ " + Colors.RESET + Colors.BRIGHT_WHITE + "[" + Colors.RESET);
             int queueCount = 0;
             for (Thread thread : processQueue) {
-                Process process = processMap.get(thread);
+                  Process process = processMap.get(thread);
                 if (queueCount > 0) System.out.print(Colors.WHITE + " → " + Colors.RESET);
                 System.out.print(Colors.BRIGHT_CYAN + process.getName() + Colors.RESET);
                 queueCount++;
