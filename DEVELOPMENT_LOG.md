@@ -59,21 +59,21 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 3 - [March 26, 2026, 8:00 PM]
+**What I did**: I solve the second features
 
-**Details**: 
+**Details**: add all feature 2 requirments
 
-**Challenges**: 
+**Challenges**:I got some trouble on the code 
 
-**Solution**: 
+**Solution**: I try again to download the url link from github
 
-**Time spent**: 
+**Time spent**: 5 hours
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+### Entry 4 - 
+**What I did**:  
 
 **Details**: 
 
