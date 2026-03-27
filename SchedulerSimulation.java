@@ -412,7 +412,7 @@ public static void displayWaitingTimeSummary() {
                               Colors.YELLOW + 
                               String.format("%-15s", process.getBurstTime() + "ms") + Colors.RESET +
                               Colors.MAGENTA + 
-                              String.format("%-15s", process.getPriority()) + Colors.RESET +
+                              String.format("%-15s", process.getpriority()) + Colors.RESET +
                               Colors.BRIGHT_GREEN + 
                               String.format("%-20s", waitTimeStr) + Colors.RESET +
                               "          " +
