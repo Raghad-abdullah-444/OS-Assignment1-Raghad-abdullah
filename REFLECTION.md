@@ -32,7 +32,10 @@ than implementation , but I learnd a lot of from this assignment.
 **Your Answer:**
 
 [Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
-
+I took many time to solve and understand.
+I reviewed lecture 3 to better understand the concepts of threads.Debugging systematically helped me idintify where program behavior was inccorect.
+I also using internet to search for explanations. I read the code many time so that also improve my knowlege and got better understand and also that helped me to solve.
+during code running I got some error and by using explanantins I handled thoses errors.And also I asked my friends to lerand form thier experiences
 ---
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
