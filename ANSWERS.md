@@ -90,8 +90,9 @@ it gives each user equal cpu time,ensuring fairness and quick respone without on
 
 **Key concepts I understood through these questions:**
 
-1.how to apply RR and the cocept of Roud robin  
+1.how to apply RR and the concept of Roud robin  
 2. how linking the question one/two with example in my program 
+
 3. the concept of context switching
 
 **Concepts I need to study more:**
