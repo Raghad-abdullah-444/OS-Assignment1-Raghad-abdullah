@@ -12,8 +12,8 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 **Your Answer:**
 
 process has its own memory space and system resources ,while thread is a smaller unit that run inside process and shares same memory with other thread,thread are lightweight and allow
-faster context while process is heavy and require more overhead to creat an mange,we used thread because multiple task need to run conncurrently whie sharing same data structure
---> Thread thread = new Thread(process); we created thread by creat object and linking thread with process
+faster context while process is heavy and require more overhead to create and mange,we used thread because multiple task need to run conncurrently whie sharing same data structure
+--> Thread thread = new Thread(process); we created thread by create object from class thread and linking thread with process
 ---> processQueue.add(thread); put thread in ready queue to choose
  contextswitchcount++--> that means thread share same memory
 
