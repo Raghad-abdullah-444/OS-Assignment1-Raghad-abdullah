@@ -51,8 +51,9 @@ after I learned multithreading I now understand how process work and connection 
 
 ### What would you like to learn more about?
 
-[Any topics related to threading, concurrency, or operating systems that you're curious about?]
-
+when I reivewed lecture 6 I learnd about deadlock in a theoretical not practical way I hope to show how deadlock apply and how prevent deadlock.
+and I would like to learn more about advanced synchronization techniques and how (os) schedule threads efficiently.
+I am interested in learning how (os) use better algorithm to solve avoid deadlock.
 ---
 
 ### How confident do you feel about multithreading concepts now?
