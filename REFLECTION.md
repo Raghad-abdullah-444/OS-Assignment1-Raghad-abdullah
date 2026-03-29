@@ -20,7 +20,7 @@ I also leraned how to apply some code to give those process priority .
 ## Question 2: What was the most challenging part of this assignment?
 
 
-
+**Your Answer:**
 
 Actullay, I faced many problems when I tried to understand the code , I saw some new features in java languge I never learnd but it good to me to show how they work.
 using git and managing commit also required carful attention to prevent mistake.
@@ -30,7 +30,7 @@ than implementation , but I learnd a lot of from this assignment.
 
 ## Question 3: How did you overcome the challenges you faced?
 
-
+**Your Answer:**
 
 I took many time to solve and understand.
 I reviewed lecture 3 to better understand the concepts of threads.Debugging systematically helped me idintify where program behavior was inccorect.
@@ -42,8 +42,9 @@ during code running I got some error and by using explanantins I handled thoses 
 
 **Your Answer:**
 
-[Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.]
-
+web browser like google chrome
+I was wonder how google chrome load web page , display videos ,pictures, and respone to any action like update page or change internet sginal in the same time but 
+after I learned multithreading I now understand how process work and connection between each other and also how operating system play serious role to mange process and resources.
 ---
 
 ## Additional Reflections (Optional)
