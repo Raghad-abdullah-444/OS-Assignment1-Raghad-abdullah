@@ -9,7 +9,11 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
+by this assginment I learned got many benefit,
+multithreading let a program to excute multiple tasks simulatitly within one process.
+As we know that each thread do its own excution but, they shares the same resources or same memory space which can improve the performance and responsivness  
+during the code running I learned how (os) created ,managed threads I and how they be in different states.
+I also leraned how to apply some code to give those process priority .
 
 ---
 
@@ -17,8 +21,10 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
-
+Actullay, I faced many problems when I tried to understand the code , I saw some new features in java languge I never learnd but it good to me to show how they work.
+using git and managing commit also required carful attention to prevent mistake.
+Connecting the concepts that I learnd from course with actual implementation took time and need more practice because, I saw that reading processes and threads theoris easier 
+than implementation , but I learnd a lot of from this assignment.
 ---
 
 ## Question 3: How did you overcome the challenges you faced?
