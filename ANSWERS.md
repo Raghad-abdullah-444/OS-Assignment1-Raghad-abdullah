@@ -22,7 +22,7 @@ faster context while process is heavy and require more overhead to create and ma
 **Question**: In Round-Robin scheduling, what happens when a process doesn't finish within its time quantum? Explain using an example from your program output.
 
 **Your Answer:**
-in Round ronin  when a process doesn't finish within its time quantum, process stop temporarily (preemption) and it return to ready queue and according to order cpu choose another process
+in Round robin  when a process doesn't finish within its time quantum, process stop temporarily (preemption) and it return to ready queue and according to order cpu choose another process
 
 
 Example from my output:
@@ -36,7 +36,7 @@ P1 executing quantum [5000ms]
 
 **Explanation of example:**
 p1 has time quantum=5000ms
-it progress only 63% and has remainig time =2900ms so it return to ready queue and according to Round robin algorithm p1 will be  last one and cpu will choose another process in order 
+it progress only 63% and has remainig time =2900ms so it return to ready queue and according to Round robin algorithm p1 will be  last one and cpu will choose another process inorder 
 
 ---
 
@@ -46,7 +46,6 @@ it progress only 63% and has remainig time =2900ms so it return to ready queue a
 
 **Your Answer:**
 
-[Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
 
 1. **New**: P1 is i n new state -> after new process is called in addprocesstoqueue() creating the thread before it stats-new procees will be in queue before take it by cpu 
 
@@ -57,7 +56,7 @@ it progress only 63% and has remainig time =2900ms so it return to ready queue a
 4. **Waiting**: p1 is become in waiting state when thread.sleep(sleepTime) is called during execution to simulate work progress   
 the main thread also wais via currentthread.join() for p1 to complete
 
-5. **Terminated**: p1 is terminated whent the run() method return normally after completing its quantum or finishing entirely via runtocompletion()
+5. **Terminated**: p1 is terminated when the run() method return normally after completing its quantum or finishing entirely via runtocompletion()
 
 ---
 
@@ -90,12 +89,12 @@ it gives each user equal cpu time,ensuring fairness and quick respone without on
 
 **Key concepts I understood through these questions:**
 
-1.how to apply RR and the concept of Roud robin  
+1.how to apply RR and the concept of Round robin  
 2. how linking the question one/two with example in my program 
 
 3. the concept of context switching
 
 **Concepts I need to study more:**
 
-1. the diference between sjf,fcfs algorits
+1. the diference between sjf,fcfs algorithms
 2. how accuratly calculate turnaround  
