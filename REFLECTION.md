@@ -19,7 +19,7 @@ I also leraned how to apply some code to give those process priority .
 
 ## Question 2: What was the most challenging part of this assignment?
 
-**Your Answer:**
+
 
 
 Actullay, I faced many problems when I tried to understand the code , I saw some new features in java languge I never learnd but it good to me to show how they work.
@@ -30,7 +30,7 @@ than implementation , but I learnd a lot of from this assignment.
 
 ## Question 3: How did you overcome the challenges you faced?
 
-**Your Answer:**
+
 
 I took many time to solve and understand.
 I reviewed lecture 3 to better understand the concepts of threads.Debugging systematically helped me idintify where program behavior was inccorect.
