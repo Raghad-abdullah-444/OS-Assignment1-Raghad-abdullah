@@ -67,31 +67,32 @@ the main thread also wais via currentthread.join() for p1 to complete
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+### Example 1: web sever handling multiple requests 
 
 **Description**: 
-[Describe the real-world scenario or application]
+when web server receives many user requests at the same time for loading page,images or data .
+each request is handled by separte thread and all thread need to cpu time to respone users 
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+(RR) scheduling gives each thread fixed time (quantum) ensuring that all requests handled quickly.this improve responsivness
 
-### Example 2: [Name of application/scenario]
+### Example 2:Time sharing (os)
 
 **Description**: 
-[Describe the real-world scenario or application]
+multiple users run programs on the same system at the same time
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+it gives each user equal cpu time,ensuring fairness and quick respone without one user dominating the system
 
 ---
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+1.how to apply RR and the cocept of Roud robin  
+2. how linking the question one/two with example in my program 
+3. the concept of context switching
 
 **Concepts I need to study more:**
-1. 
-2. 
+1. the diference between sjf,fcfs algorits
+2. how accuratly calculate turnaround  
