@@ -61,9 +61,11 @@ I am interested in learning how (os) use better algorithm to solve avoid deadloc
 [Rate yourself and explain: Beginner / Intermediate / Confident]
 
 [Explain your rating - what do you understand well? What needs more practice?]
-
+I would rate my confidence level as Beginner  , I still learning and I understand basic concepts of threads , concurrency, and process life cycles.
+I am interested in learning in this course.
 ---
 
 ### Feedback on the assignment
 
 [Any comments about the assignment? Was it helpful? Too easy/hard? Suggestions for improvement?]
+
