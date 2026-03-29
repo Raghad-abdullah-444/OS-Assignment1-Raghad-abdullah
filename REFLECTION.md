@@ -58,14 +58,12 @@ I am interested in learning how (os) use better algorithm to solve avoid deadloc
 
 ### How confident do you feel about multithreading concepts now?
 
-[Rate yourself and explain: Beginner / Intermediate / Confident]
-
-[Explain your rating - what do you understand well? What needs more practice?]
 I would rate my confidence level as Beginner  , I still learning and I understand basic concepts of threads , concurrency, and process life cycles.
 I am interested in learning in this course.
 ---
 
 ### Feedback on the assignment
 
-[Any comments about the assignment? Was it helpful? Too easy/hard? Suggestions for improvement?]
-
+This assignment helped me apply what I have learnd,but it is very time consuming and not easy for me as a beginner.
+I think it could be improved by reducing some of the required features and clarifying the requirments further, as it was difficult to connect the practical method with what I learned 
+theoretically.
