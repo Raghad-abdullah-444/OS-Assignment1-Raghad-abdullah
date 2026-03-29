@@ -11,17 +11,19 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 
 **Your Answer:**
 
-[Write your answer here. Consider: What is a process? What is a thread? How do they differ in terms of memory, resources, creation overhead? Why are threads more suitable for this simulation?]
-
----
+process has its own memory space and system resources ,while thread is a smaller unit that run inside process and shares same memory with other thread,thread are lightweight and allow
+faster context while process is heavy and require more overhead to creat an mange,we used thread because multiple task need to run conncurrently whie sharing same data structure
+--> Thread thread = new Thread(process); we created thread by creat object and linking thread with process
+---> processQueue.add(thread); put thread in ready queue to choose
+ contextswitchcount++--> that means thread share same memory
 
 ## Question 2: Ready Queue Behavior
 
 **Question**: In Round-Robin scheduling, what happens when a process doesn't finish within its time quantum? Explain using an example from your program output.
 
 **Your Answer:**
+in Round ronin  when a process doesn't finish within its time quantum, process stop temporarily (preemption) and it return to ready queue and according to order cpu choose another process
 
-[Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
 
 Example from my output:
 ```
