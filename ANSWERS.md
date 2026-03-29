@@ -27,11 +27,16 @@ in Round ronin  when a process doesn't finish within its time quantum, process s
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+P1 executing quantum [5000ms]
+  ? Quantum progress: [███████████████] 100%
+  ? P1 completed quantum 5000ms │ Overall progress: [████████████░░░░░░░░] 63%
+     Remaining time: 2900ms
+  ? P1 yields CPU for context switch
 ```
 
 **Explanation of example:**
-[Explain what's happening in the output snippet you pasted]
+p1 has time quantum=5000ms
+it progress only 63% and has remainig time =2900ms so it return to ready queue and according to Round robin algorithm p1 will be  last one and cpu will choose another process in order 
 
 ---
 
