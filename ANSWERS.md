@@ -89,10 +89,12 @@ it gives each user equal cpu time,ensuring fairness and quick respone without on
 ## Summary
 
 **Key concepts I understood through these questions:**
+
 1.how to apply RR and the cocept of Roud robin  
 2. how linking the question one/two with example in my program 
 3. the concept of context switching
 
 **Concepts I need to study more:**
+
 1. the diference between sjf,fcfs algorits
 2. how accuratly calculate turnaround  
