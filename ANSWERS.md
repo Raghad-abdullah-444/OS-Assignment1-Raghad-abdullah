@@ -12,7 +12,7 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 **Your Answer:**
 
 process has its own memory space and system resources ,while thread is a smaller unit that run inside process and shares same memory with other thread,thread are lightweight and allow
-faster context while process is heavy and require more overhead to create and mange,we used thread because multiple task need to run conncurrently whie sharing same data structure
+faster context while process is heavy and require more overhead to create and mange,we used thread because multiple task need to run conncurrently whlie sharing same data structure
 --> Thread thread = new Thread(process); we created thread by create object from class thread and linking thread with process
 ---> processQueue.add(thread); put thread in ready queue to choose
  contextswitchcount++--> that means thread share same memory
@@ -22,7 +22,7 @@ faster context while process is heavy and require more overhead to create and ma
 **Question**: In Round-Robin scheduling, what happens when a process doesn't finish within its time quantum? Explain using an example from your program output.
 
 **Your Answer:**
-in Round robin  when a process doesn't finish within its time quantum, process stop temporarily (preemption) and it return to ready queue and according to order cpu choose another process
+in Round Robin  when a process doesn't finish within its time quantum, process stop temporarily (preemption) and it return to ready queue and according to order cpu choose another process
 
 
 Example from my output:
@@ -36,7 +36,7 @@ P1 executing quantum [5000ms]
 
 **Explanation of example:**
 p1 has time quantum=5000ms
-it progress only 63% and has remainig time =2900ms so it return to ready queue and according to Round robin algorithm p1 will be  last one and cpu will choose another process inorder 
+it progress only 63% and has remainig time =2900ms so, it return to ready queue and according to Round Robin algorithm p1 will be  last one and cpu will choose another process inorder 
 
 ---
 
@@ -47,14 +47,14 @@ it progress only 63% and has remainig time =2900ms so it return to ready queue a
 **Your Answer:**
 
 
-1. **New**: P1 is i n new state -> after new process is called in addprocesstoqueue() creating the thread before it stats-new procees will be in queue before take it by cpu 
+1. **New**: P1 is i n new state -> after new process is called in addprocesstoqueue() creating the thread before it state->new procees will be in queue before take it by cpu 
 
 2. **Runnable**: p1 become runnable when currentthread.start() is called in the main scheduling loop,making it ready for cpu.
 
 3. **Running**: p1 is running when operating system scheduler patches/select the p1 and begins executing the run() method,calculating run time and processing its quantum
 
 4. **Waiting**: p1 is become in waiting state when thread.sleep(sleepTime) is called during execution to simulate work progress   
-the main thread also wais via currentthread.join() for p1 to complete
+the main thread also waits via currentthread.join() for p1 to complete
 
 5. **Terminated**: p1 is terminated when the run() method return normally after completing its quantum or finishing entirely via runtocompletion()
 
