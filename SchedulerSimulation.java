@@ -195,6 +195,7 @@ public class SchedulerSimulation {
         int studentID = 444052811;  // ← CHANGE THIS TO YOUR ACTUAL STUDENT ID//test
     //test
     //test1
+    int x=0;
         Random random = new Random(studentID);
         
         // Define the time quantum in milliseconds (the maximum time a process gets in one round)
