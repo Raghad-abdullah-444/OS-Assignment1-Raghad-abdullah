@@ -70,18 +70,18 @@ the main thread also waits via currentthread.join() for p1 to complete
 
 **Description**: 
 when web server receives many user requests at the same time for loading page,images or data .
-each request is handled by separte thread and all thread need to cpu time to respone users 
+each request is handled by seperate thread and all thread need to cpu time to respone users 
 
 **Why Round-Robin works well here**: 
 (RR) scheduling gives each thread fixed time (quantum) ensuring that all requests handled quickly.this improve responsivness
 
-### Example 2:Time sharing (os)
+### Example 2:Media player
 
 **Description**: 
-multiple users run programs on the same system at the same time
+program that used to play videos and audio such as windows media player,used multiple threads for audio,vedio and buffering
 
 **Why Round-Robin works well here**: 
-it gives each user equal cpu time,ensuring fairness and quick respone without one user dominating the system
+it gives each thread a small cpu time slice in turn this allow to audio,vedio  run smoothly,prevents any single thread from taking all cpu time
 
 ---
 
