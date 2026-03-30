@@ -194,8 +194,8 @@ public class SchedulerSimulation {
         // This makes your output unique to you - DO NOT forget to change this!
         int studentID = 444052811;  // ← CHANGE THIS TO YOUR ACTUAL STUDENT ID//test
     
-   //commit
-   int x=9;
+
+  
         Random random = new Random(studentID);
         
         // Define the time quantum in milliseconds (the maximum time a process gets in one round)
