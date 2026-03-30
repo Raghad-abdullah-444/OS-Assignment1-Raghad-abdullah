@@ -32,90 +32,80 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [March 24, 2026, 9:30 AM]
+**What I did**: Download VS code and create account on Github, and update or add my ID inside the code(444052811)
 
-**Details**: 
+**Details**: created account on github use download the current code and linking github with VS code
 
-**Challenges**: 
+**Challenges**: I got some trouble when I try to open file and put the url inside vs code
 
-**Solution**: 
+**Solution**: I used some internet resources to learn how to linked
 
-**Time spent**: 
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 2 hours
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 2 - [[March 25, 2026, 8:00 AM]
+**What I did**: I try to add the feature started with first features
 
-**Details**: 
 
-**Challenges**: 
+**Details**: add all feature 1 requirments
 
-**Solution**: 
+**Challenges**: take to understand what should I do
 
-**Time spent**: 
+**Solution**: I searh on some resources , searching on slides
 
----
-
-### Entry 4 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 4 hours
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+### Entry 3 - [March 26, 2026, 8:00 PM]
+**What I did**: I solve the second features
 
-**Details**: 
+**Details**: add all feature 2 requirments
 
-**Challenges**: 
+**Challenges**:I got some trouble on the code 
 
-**Solution**: 
+**Solution**: I try again to download the url link from github
 
-**Time spent**: 
+**Time spent**: 5 hours
+
+---
+
+### Entry 4 - - [March 27, 2026, 3:30 PM]
+**What I did**:  I started to add the last features 
+
+**Details**: I add some of third feature  
+
+**Challenges**: last feature was harder than other
+
+**Solution**: I check some resources 
+
+**Time spent**: 6 hours
 
 ---
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
+### Entry 5 - [March 28, 2026, 3:30 PM]
+**What I did**: solve other features 
 
-**Details**: 
+**Details**: I complete the last features
 
-**Challenges**: 
+**Challenges**: It take long time to solve
 
-**Solution**: 
+**Solution**: I try to solve it early, and check youtube
 
-**Time spent**: 
+**Time spent**: 6 hours
 
 ---
+
+
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [4 days]
 
-**Most challenging part**: 
+**Most challenging part**: hard to understand , take long time
 
-**Most interesting learning**: 
+**Most interesting learning**: how process working inside cpu
 
-**What I would do differently next time**: 
+**What I would do differently next time**: start to solve early

@@ -11,25 +11,32 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 
 **Your Answer:**
 
-[Write your answer here. Consider: What is a process? What is a thread? How do they differ in terms of memory, resources, creation overhead? Why are threads more suitable for this simulation?]
-
----
+process has its own memory space and system resources ,while thread is a smaller unit that run inside process and shares same memory with other thread,thread are lightweight and allow
+faster context while process is heavy and require more overhead to create and mange,we used thread because multiple task need to run conncurrently whlie sharing same data structure
+--> Thread thread = new Thread(process); we created thread by create object from class thread and linking thread with process
+---> processQueue.add(thread); put thread in ready queue to choose
+ contextswitchcount++--> that means thread share same memory
 
 ## Question 2: Ready Queue Behavior
 
 **Question**: In Round-Robin scheduling, what happens when a process doesn't finish within its time quantum? Explain using an example from your program output.
 
 **Your Answer:**
+in Round Robin  when a process doesn't finish within its time quantum, process stop temporarily (preemption) and it return to ready queue and according to order cpu choose another process
 
-[Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+P1 executing quantum [5000ms]
+  ? Quantum progress: [███████████████] 100%
+  ? P1 completed quantum 5000ms │ Overall progress: [████████████░░░░░░░░] 63%
+     Remaining time: 2900ms
+  ? P1 yields CPU for context switch
 ```
 
 **Explanation of example:**
-[Explain what's happening in the output snippet you pasted]
+p1 has time quantum=5000ms
+it progress only 63% and has remainig time =2900ms so, it return to ready queue and according to Round Robin algorithm p1 will be  last one and cpu will choose another process inorder 
 
 ---
 
@@ -39,17 +46,17 @@ Example from my output:
 
 **Your Answer:**
 
-[Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
 
-1. **New**: [When is P1 in New state?]
+1. **New**: P1 is i n new state -> after new process is called in addprocesstoqueue() creating the thread before it state->new procees will be in queue before take it by cpu 
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: p1 become runnable when currentthread.start() is called in the main scheduling loop,making it ready for cpu.
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: p1 is running when operating system scheduler patches/select the p1 and begins executing the run() method,calculating run time and processing its quantum
 
-4. **Waiting**: [When/why would P1 be Waiting?]
+4. **Waiting**: p1 is become in waiting state when thread.sleep(sleepTime) is called during execution to simulate work progress   
+the main thread also waits via currentthread.join() for p1 to complete
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: p1 is terminated when the run() method return normally after completing its quantum or finishing entirely via runtocompletion()
 
 ---
 
@@ -59,31 +66,35 @@ Example from my output:
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+### Example 1: web sever handling multiple requests 
 
 **Description**: 
-[Describe the real-world scenario or application]
+when web server receives many user requests at the same time for loading page,images or data .
+each request is handled by seperate thread and all thread need to cpu time to respone users 
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+(RR) scheduling gives each thread fixed time (quantum) ensuring that all requests handled quickly.this improve responsivness
 
-### Example 2: [Name of application/scenario]
+### Example 2:Media player
 
 **Description**: 
-[Describe the real-world scenario or application]
+program that used to play videos and audio such as windows media player,used multiple threads for audio,vedio and buffering
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+it gives each thread a small cpu time slice in turn this allow to audio,vedio  run smoothly,prevents any single thread from taking all cpu time
 
 ---
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+
+1.how to apply RR and the concept of Round robin  
+2. how linking the question one/two with example in my program 
+
+3. the concept of context switching
 
 **Concepts I need to study more:**
-1. 
-2. 
+
+1. the diference between sjf,fcfs algorithms
+2. how accuratly calculate turnaround  
