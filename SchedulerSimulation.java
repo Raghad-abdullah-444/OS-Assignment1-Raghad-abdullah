@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.HashMap; // test //ii
+import java.util.HashMap; 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -31,7 +31,7 @@ class Process implements Runnable {
     private int burstTime; // Total time the process requires to complete (in milliseconds)
     private int timeQuantum; // Time slice (time quantum) allowed per CPU access (in milliseconds)
     private int remainingTime; // Time left for the process to finish its execution
-    //*1a add pirority varible
+    //Q1 give priority to thread
 private int priority;
 //1c add varibles for waiting time
  private long creationTime; 
@@ -46,7 +46,7 @@ private int priority;
         this.burstTime = burstTime;
         this.timeQuantum = timeQuantum;
         this.remainingTime = burstTime; 
-        this.priority = priority;
+        this.priority = priority;//initialize priority
         //3c add constructor to new varibles
          this.creationTime = System.currentTimeMillis(); 
         this.totalWaitingTime = 0; 
@@ -240,7 +240,7 @@ public class SchedulerSimulation {
         for (int i = 1; i <= numProcesses; i++) {
             // Random burst time for each process between timeQuantum/2 and 3*timeQuantum
             int burstTime = timeQuantum/2 + random.nextInt(2 * timeQuantum + 1);
-            //4a add random priority 1-5
+            //Q1 add random priority 1-5
             int priority =1+random.nextInt(5);
             // Create a new process object with a unique name, burst time, and the defined time quantum
             Process process = new Process("P" + i, burstTime, timeQuantum,priority);
